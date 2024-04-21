@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import axios from 'react';
-import AggregateForm from '../components/AggregateForm';
-import ConcreteForm from '../components/ConcreteForm';
-import AggregateList from '../components/AggregateList';
-import ConcreteList from '../components/ConcreteList';
+import AggregateForm from '../components/aggregate/AggregateForm';
+import AggregateList from '../components/aggregate/AggregateList';
+import ConcreteForm from '../components/concrete/ConcreteForm';
+import ConcreteList from '../components/concrete/ConcreteList';
 
 const Main = (props) => {
     const [aggregateList, setAggregateList] = useState([])
