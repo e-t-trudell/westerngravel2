@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom';
 import axios from 'axios';
-import DeleteConcreteButton from './DeleteConcreteButton';
+import DeleteButton from './DeleteButton';
 const ConcreteList = (props) => {
     const [con, setCon] = useState([]);
 
